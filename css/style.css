@@ -1,0 +1,59 @@
+/* Colors
+
+Principal: #0dcaf0 / Azul
+Secundario: #0d6efd / Celeste
+Textos: #212529 Dark
+        #f8f9fa Light
+
+*/
+
+.navbar {
+    min-height: 80px; 
+}
+
+.nav-link:hover {
+    color: #0dcaf0 !important; /* color info*/
+}
+
+.contenido {
+    max-width: 430px;
+}
+
+.contenido__img 
+    img {
+        width: 100% !important;
+}
+
+.contenido__h1 {
+    line-height: 4rem;
+    margin-bottom: 2rem;
+}
+
+#hero {
+    height: auto;
+}
+
+.btn:hover {
+    background-color: #0d6efd; /* color primary*/
+    border: 0.05rem solid #f8f9fa; /* color light*/
+    color: #f8f9fa !important; /* color light*/
+}
+
+.btn-denuncia:hover {
+    background-color: #212529; /* color dark*/
+    border: 0.05rem solid #f8f9fa; /* color light*/
+    color: #f8f9fa !important; /* color light*/
+}
+
+/* Segundo Hero */
+
+.contenido-two {
+    max-width: 550px;
+}
+
+/* iconos */
+
+.icon-color:hover {
+    color: #0d6efd !important;
+    cursor: pointer;
+}

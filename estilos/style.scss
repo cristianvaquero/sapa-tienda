@@ -1,0 +1,56 @@
+@import "../variables/color";
+
+.navbar {
+  min-height: 80px; 
+}
+
+.nav-link:hover {
+  color: $info !important;
+}
+
+.contenido {
+  max-width: 430px;
+}
+
+.contenido__img 
+  img {
+      width: 100% !important;
+}
+
+.contenido__h1 {
+  line-height: 4rem;
+  margin-bottom: 2rem;
+}
+
+#hero {
+  height: auto;
+}
+
+.btn:hover {
+  background-color: $info !important;
+  border: 0.05rem solid $info !important;
+  color: $primary !important;
+    
+    &--denuncia:hover {
+      background-color: $info !important;
+      border: 0.05rem solid $info !important;
+      color: $dark !important;
+    }
+}
+
+/* Segundo Hero */
+
+.contenido-two {
+  max-width: 550px;
+}
+
+/* iconos */
+
+.icon-color:hover {
+  color: $primary !important;
+  cursor: pointer;
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"

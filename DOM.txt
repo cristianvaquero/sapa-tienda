@@ -1,0 +1,32 @@
+// ¿Cómo comunicarse con el HTML desde Js?
+
+// 1- Llamar por id » document.getElementById("parrafo")
+// 2- Llamar por class » document.getElementClassName("parrafo")
+// 3- Llamar por etiqueta » document.getElementsByTagName("p")
+// 4- Llamar de manera genérica » document.querySelector("") » #para los id / .para las class
+
+
+// const trayendoElemento = document.querySelector(".parrafo").textContent;
+
+// let miDivNota = document.querySelector("#nota");
+
+// miDivNota.innerHTML += `<h2>Soy un texto agrega desde mi Js</h2>`
+
+// console.log(trayendoElemento);
+
+let productos = [{id: 1, nombre: "fideos", precio: 25},
+                 {id: 2, nombre: "galletitas", precio: 65},
+                 {id: 3, nombre: "lentejas", precio: 90},
+                 {id: 4, nombre: "helado", precio: 210}]
+
+let mostrarProductos = document.querySelector("#catalogo");
+
+for (let i = 0; i < productos.length; i++) {
+    mostrarProductos.innerHTML += `
+        <div>
+            <h3>${productos[i].nombre}</h3>
+            <p>${productos[i].precio}</p>
+            <button>Comprar</button>
+        </div>
+    `
+}
